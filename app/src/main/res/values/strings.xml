@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="titulo_cadastro">Cadastrar uma conta</string>
+    <string name="titulo_login">Acessar minha conta</string>
+    <string name="title_activity_pessoa">PassageiroActivity</string>
+    <string name="title_activity_corrida">CorridaActivity</string>
+    <string name="app_name">Recycle+</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="ItemsSegmentedControl">
+        <item>Perto de mim</item>
+        <item>Mapa</item>
+    </string-array>
+    <string name="MapaActivitySearchHint">Buscar por CEP</string>
+    <string name="bem_vindo">BEM-VINDO</string>
+    <string name="steponePrincipal">Conheça o Recycle+, o app que te\najuda a descobrir áreas de descarte\ncorreto perto de você!</string>
+    <string name="proximo">PRÓXIMO</string>
+    <string name="cidadao">CIDADÃO SUSTENTÁVEL</string>
+    <string name="steptwoPrincipal">Aprenda informações de como fazer\na separação correta do lixo e veja\nno mapa os pontos de reciclagem.</string>
+    <string name="empresa">EMPRESA SUSTENTÁVEL</string>
+    <string name="stepthreePrincipal">Cadastre a sua empresa como ponto\nde coleta sustentável e ajude a mudar\na sua cidade.</string>
+    <string name="saibamais">Saiba como destinar o seu\nlixo reciclável em um ponto\nde coleta perto de você</string>
+    <string name="comofunciona">COMO FUNCIONA?</string>
+    <string name="cep">CEP:</string>
+    <string name="email">Email:</string>
+    <string name="tipo">Tipo:</string>
+    <string name="dicasreciclagem">DICAS DE RECICLAGEM</string>
+    <string name="dica1">Entender como ocorre uma separação\ncorreta e simples de fazer no dia a dia.</string>
+    <string name="separacao">SEPARAÇÃO</string>
+    <string name="separacaotexto">Separe os matérias orgânicos dos\nrecicláveis.</string>
+    <string name="limpeza">LIMPEZA</string>
+    <string name="limpezatexto">Limpe as embalagens que iram para\na coleta seletiva.</string>
+    <string name="contaminacao">CONTAMINAÇÃO</string>
+    <string name="contaminacaotexto">Tome cuidado com os materiais de\nhigiene pessoal, para não haver\ncontaminação.</string>
+    <string name="separacaototal">SEPARAÇÃO TOTAL</string>
+    <string name="separacaototaltexto">Coloque os matérias em sacolas de\nlixo separadas.</string>
+    <string name="descarte">DESCARTE</string>
+    <string name="descartetexto">Espere o dia certo para colocar as\nsacolas de lixo na rua ou leve para\nambientes adequados.</string>
+    <string name="tipolixo">Tipo de descarte:</string>
+    <string name="rua">Rua:</string>
+    <string name="bairro">Bairro:</string>
+    <string name="numero">Numero:</string>
+    <string name="cidade">Cidade:</string>
+    <string name="uf">UF:</string>
+    <string name="logar">Logar</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="entrar_sem_logar">ENTRAR SEM LOGAR</string>
+</resources>

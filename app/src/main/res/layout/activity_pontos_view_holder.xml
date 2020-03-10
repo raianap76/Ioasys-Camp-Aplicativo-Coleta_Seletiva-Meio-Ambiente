@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".adapter.PontosViewHolder"
+    android:background="@color/colorPrimaryDark"
+    android:padding="8dp"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="340dp"
+        android:background="@drawable/viewholderectangle"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtNomeAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stolzlregular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtCep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/stolzlregular"
+        android:text="@string/cep"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtNomeAPI" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtCepAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@id/txtCep"
+        app:layout_constraintTop_toBottomOf="@id/txtNomeAPI" />
+
+    <TextView
+        android:id="@+id/txtTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtCep"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        android:text="@string/tipo"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtTipoAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtCepAPI"
+        app:layout_constraintStart_toEndOf="@id/txtTipo"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/txtRua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtTipoLixo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        android:text="@string/rua"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtRuaAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtTipoLixoAPI"
+        app:layout_constraintStart_toEndOf="@id/txtRua"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp" />
+    <ImageView
+        android:id="@+id/imgRight"
+        android:src="@mipmap/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtTipoLixo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtTipo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        android:text="@string/tipolixo"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/txtTipoLixoAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtTipoAPI"
+        app:layout_constraintStart_toEndOf="@id/txtTipoLixo"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/txtBairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtRua"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        android:text="@string/bairro"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtBairroAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtRuaAPI"
+        app:layout_constraintStart_toEndOf="@id/txtBairro"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/txtNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtBairro"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        android:text="@string/numero"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtNumeroAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtBairroAPI"
+        app:layout_constraintStart_toEndOf="@id/txtNumero"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/txtCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtNumero"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        android:text="@string/cidade"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtCidadeAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtNumeroAPI"
+        app:layout_constraintStart_toEndOf="@id/txtCidade"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/txtUF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtCidade"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        android:text="@string/uf"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtUFAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtCidadeAPI"
+        app:layout_constraintStart_toEndOf="@id/txtUF"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtUF"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        android:text="@string/email"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtEmailAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtUFAPI"
+        app:layout_constraintStart_toEndOf="@id/txtEmail"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

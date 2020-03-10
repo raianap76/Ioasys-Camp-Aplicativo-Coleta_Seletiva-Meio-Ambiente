@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.PassageiroActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_passageiro"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="80dp"
+            android:background="@android:color/white"
+            android:padding="8dp" android:id="@+id/linearLayoutDestino">
+        <EditText
+                android:id="@+id/editLocal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/circulo_verde"
+                android:drawablePadding="6dp"
+                android:background="@android:color/white"
+                android:inputType="textPersonName"
+                android:enabled="false"
+                android:hint="Meu local"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="18sp"
+        />
+
+        <EditText
+                android:id="@+id/editDestino"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/circulo_verde"
+                android:drawableTint="@android:color/darker_gray"
+                android:drawablePadding="6dp"
+                android:background="@android:color/white"
+                android:inputType="textPersonName"
+                android:hint="Digite seu destino"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="18sp"
+        />
+    </LinearLayout>
+    <Button
+            android:text="Chamar Uber"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="14sp"
+            android:gravity="center|center_vertical"
+            android:layout_gravity="bottom"
+            android:theme="@style/botaoPadrao"
+            android:onClick="chamarUber"
+            android:id="@+id/chamarUber"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

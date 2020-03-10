@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1036369237830",
+    "firebase_url": "https://reciclevmais.firebaseio.com",
+    "project_id": "reciclevmais",
+    "storage_bucket": "reciclevmais.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036369237830:android:fa971229347d055fd2f747",
+        "android_client_info": {
+          "package_name": "raianapereira.maps.recycle.reciclev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036369237830-g195blh9jt2a49vo0hutb6iu922vu0d4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "raianapereira.maps.recycle.reciclev",
+            "certificate_hash": "469046d50a062fa12b1e38a7cfb745d3d2bc1cbb"
+          }
+        },
+        {
+          "client_id": "1036369237830-gk12b1iaecgh7g5mkn5c1klekaivso99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-crgz8WU0NzHRw6ejsxkofRnWnru9XK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036369237830-gk12b1iaecgh7g5mkn5c1klekaivso99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

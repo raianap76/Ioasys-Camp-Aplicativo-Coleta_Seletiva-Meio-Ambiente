@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".activity.LogarCadastrar"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/imgLogoLogarCadastrar"
+        android:src="@mipmap/logorecyclewhite"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:id="@+id/bttnLogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/stolzlregular"
+        android:background="@color/colorSegmentedControl"
+        android:text="@string/logar"
+        app:layout_constraintTop_toBottomOf="@id/imgLogoLogarCadastrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/bttnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        android:textColor="@android:color/white"
+        android:background="@color/colorSegmentedControl"
+        app:layout_constraintTop_toBottomOf="@id/bttnLogar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bttnEntrarSemLogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar_sem_logar"
+        android:fontFamily="@font/stolzlregular"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/bttnCadastrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorSegmentedControl"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

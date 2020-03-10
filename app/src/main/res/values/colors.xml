@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#102A3C</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorSegmentedControl">#80BB4C</color>
+    <color name="colorPrincipal">#808389</color>
+    <color name="rectangle">#6B7D32</color>
+    <color name="comofuncionatext">#6B7919</color>
+    <color name="comofuncionabackground">#C6E02F</color>
+    <color name="backgroundViewHolder">#353D18</color>
+    <color name="txtinformation">#707070</color>
+    <color name="btnLogin">#1FBAD6</color>
+    <color name="btnCadastro">#83838C</color>
+
+</resources>
